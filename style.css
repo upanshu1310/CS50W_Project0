@@ -1,0 +1,72 @@
+#search-options {
+    display: flex;
+    justify-content: right;
+}
+
+#search-options>a {
+    color: RGB(34, 32, 35);
+    text-decoration: none;
+    padding: 10px;
+}
+
+#search-options>a:hover {
+    text-decoration: underline;
+}
+
+#search-options>a:visited {
+    color: RGB(34, 32, 35);
+    text-decoration: none;
+}
+
+.search-bar,
+.search-button {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    border-radius: 50px;
+    width: 500px;
+    height: 30px;
+}
+
+.search-bar {
+    padding: 100px 0 20px 0;
+}
+
+input[value="Google Search"] {
+    margin-right: 10px;
+}
+
+.search-button>input[type="submit"] {
+    width: 125px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: RGB(248, 249, 251);
+    border: 1px solid black;
+}
+
+.advanced-search-options {
+    /* display: flex; */
+    width: 750px;
+    margin: 15px;
+    padding: 10px;
+}
+
+.advanced {
+    float: right;
+    /* justify-content: right; */
+    border-radius: 0;
+    width: 550px;
+    height: 20px;
+}
+
+input[value="Advanced Search"] {
+    margin-left: 645px;
+    width: 125px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: RGB(74, 141, 246);
+    color: white;
+    border: 1px;
+}
