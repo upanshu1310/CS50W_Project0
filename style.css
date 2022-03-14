@@ -1,3 +1,7 @@
+body {
+    font: arial, sans-serif;
+}
+
 #search-options {
     display: flex;
     justify-content: right;
